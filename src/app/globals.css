@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  body {
+    background-color: var(--color-gray-50);
+    color: var(--color-slate-900);
+  }
+}
+
+@theme {
+  --color-primary: var(--color-orange-600);
+  --color-primary-foreground: var(--color-white);
+}
